@@ -1,0 +1,29 @@
+
+.column {
+    float: left;
+    width: 33%;
+}
+.row {
+font-family: "ariel";
+  font-size: 20px
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#results {
+    font-size: 60px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
